@@ -1,3 +1,367 @@
-h3 {
-  color: brown;
+body {
+  background-color:rgba(207, 216, 220, 0.20);
+  width: 375px;
+  height: 667px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 24px;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6070ff;
+}
+
+.button-icon {
+  background-color: transparent;
+  border : 0;
+}
+
+.hamburger-icon {
+  color: #6070ff;
+  width: 28px;
+  height: 28px;
+}
+.headline {
+  background-color: white;
+  height: 604px;
+  background-image: url('./Background.png');
+  display: flex;
+  flex-direction: column;
+  padding: 5px 24px 10px 24px;
+  border-bottom-left-radius: 50px;
+}
+
+.headline-content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top : 60px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+span {
+  font-family: 'poppins', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  color: #7f8cff;
+  display: flex;
+  padding-left: 0; 
+}
+
+.social-icons {
+  padding-left: 0 ;
+  width: 50%;
+  height: 2%;
+}
+
+.work-container {
+ 
+  display: grid;
+  padding: 115px 24px 114px 24px;
+  gap: 88px;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 0;
+}
+
+.card > img {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+}
+
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.card-skills {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-skills > li {
+  color: #6070ff;
+  display: inline-block;
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  box-shadow: 0 2px 4px #ebebff;
+  margin: 0 8px 0 0;
+}
+
+.card-button {
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  padding-top: 12px;
+  width: 160px;
+  height: 48px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #396df2;
+  background-color: white;
+}
+
+.about {
+  border-top-right-radius: 80px;
+  height: 1062px;
+  width: 375px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+.about-hero {
+  width:327px;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 24px 0px 24px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.about-hero > p{
+  margin-top: 0px;
+}
+
+.about-hero > span{
+  padding-top: 2px;
+}
+
+.social-icons-container{
+  width: 200px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+
+.skills{
+  width: 327px;
+  height: 464px;
+  margin: 23px 23px 0px 22px;
+}
+
+.frame1{
+  width: 300px;
+  height: 55px;
+  font-family: 'poppins';
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 10px;
+  line-height: 24px;
+  font-weight: bolder;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.down-button{
+  width: 24px;
+  height: 24px;
+}
+.lang-list{
+  width: 327px;
+  height: 248px;
+}
+ .list{
+   width: 303px;
+   height: 62px;
+   background-color: rgba(207, 216, 220, 0.20);
+   border-radius: 8px;
+   list-style-type: none;
+   margin: 7px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+ }
+ h4{
+  margin-left: 20px;
+ }
+
+ .frame{
+  width: 327px;
+  height: 72px;
+  font-family: 'poppins';
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-bottom: 1px rgba(0, 0, 0,0.20) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ h3{
+ margin: 0px;
+ }
+
+ .contact-me{
+  width: 375px;
+  height: 799px;
+  background-color: rgba(96, 112, 255, 1);
+  border-top-left-radius: 100px;
+  background-image: url(./contact-me.png);
+  background-size: cover;
+  background-size: 265px 709px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y:center;
+
+ }
+ .input-text{
+font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+color: rgba(23, 43, 77, 1);
+ }
+ .Contact-text{
+margin: 0px;
+color:rgba(255, 255, 255, 1);
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+text-align: center;
+position:relative;
+top: 15%;
+ }
+ .contact-textp{
+width: 327px;
+height: 137px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+color: rgba(235, 235, 255, 1);
+margin: 0px 0px 0px 24px;
+position: relative;
+top: 17%;
+ }
+
+ .input-text1{
+width: 327px;
+height: 38px;
+border-radius: 10px;
+border-color: transparent;
+margin: 0px 0px 0px 24px;
+padding: 0px;
+position: relative;
+top: 23%;
+ }
+.input-text2{
+  width: 327px;
+  height: 38px;
+  border-radius: 10px;
+  border-color: transparent;
+  margin: 0px 0px 0px 24px;
+  padding: 0px;
+  position: relative;
+  top: 25%;
+}
+.input-text3{
+  width: 327px;
+  height: 170px;
+  
+ font-family: Poppins;
+ font-size: 15px;
+ font-weight: 400;
+ line-height: 24px;
+ text-align: left;
+
+  border-radius: 10px;
+  border-color: transparent;
+  margin: 0px 0px 0px 24px;
+  padding: 0px;
+  position: relative;
+  top: 27%;
+}
+.contact-button{
+width: 142px;
+height: 48px;
+background-color: rgba(255, 255, 255, 1);
+color: rgba(96, 112, 255, 1);
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+margin: 0px 0px 0px 24px;
+border-radius: 10px;
+border-color: transparent;
+position: relative;
+top: 30%;
+}
+.lastbar{
+  width: 134px;
+  height: 5px;
+  position: relative;
+  color: rgba(13, 21, 30, 1);
+  border-radius: 10px;
+  position:relative;
+  top: 36%;
+  margin-left: 120px;
 }
